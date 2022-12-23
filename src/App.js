@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import Home  from './Components/Router/Home';
+// import About from './Components/Router/About';
+// import Contact from './Components/Router/Contact';
+// import Memo from '/Users/admin/HelloReact/helloreact/src/Memo/Memo.jsx'
+// import Useeffect from '/Users/admin/HelloReact/helloreact/src/useEffect/Useeffect.jsx'
+// import Hoc from '/Users/admin/HelloReact/helloreact/src/Hoc/Hoc.jsx'
+// import Lm from './LidecycleMethod/Lm'
+// import UseCallbacks from '/Users/admin/HelloReact/helloreact/src/UseCallbacks/UseCallbacks.jsx'
+// import Lifecycle from '../src/LifeCycle/Lifecycle';
+// import AppTodayPlan from '/Users/admin/HelloReact/helloreact/src/TodayPlan/AppTodayPlan.js'
+// import UsingContext from '/Users/admin/HelloReact/helloreact/src/HardWork/UsingContext.jsx';
+// import {ContextApi} from '/Users/admin/HelloReact/helloreact/src/HardWork/ContextApi.jsx'
+// import { ContextApi } from '/Users/admin/HelloReact/helloreact/src/HardWork/ContextApi.jsx';
+import UseReducer from '/Users/admin/HelloReact/helloreact/src/Reducer/Reducer.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes>
+
+      </BrowserRouter> */}
+      {/* <Useeffect/> */}
+      {/* <Memo/> */}
+      {/* <Hoc/>
+      <Lm/>
+      <UseCallbacks/>
+      <Lifecycle/> */}
+      {/* <AppTodayPlan/> */}
+      {/* <ContextApi/> */}
+      {/* <UsingContext/> */}
+      <UseReducer/>
+
+    </>
+
   );
 }
 
